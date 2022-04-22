@@ -44,4 +44,15 @@ The analysis of the election by county shows that:
  # Election Analysis Summary
 Using the Python script written for this analysis, we were able to analyze a large data set in order to determine the number of votes cast in an election and how those votes break down by candidate and by county. We were able to determine the winner of the election, the county with the largest voter turnout, and percentage of votes that each candidate received, and the percentage of votes that came from each county.
 
-The value of this script is apparent in the results of this analysis, and it can be used again in the future. Replacing the data in the file that is being read in this analysis would allow us to run the script on future elections as long as the data is organized in the same way in a CSV file. We could also add additional code to this script to analyze the percentage of votes that candidates received in each county so that we can determine the winner in each county. 
+The value of this script is apparent in the results of this analysis, and it can be used again in the future. The file that we are reading from is election_results.csv. The file that we are writing to is election_analysis.txt. These files are loaded into variables in lines 8-11 of the code attached to this analysis, as seen in this image:
+
+![image](https://user-images.githubusercontent.com/100658772/164799471-cdccbe1c-8259-4178-a503-ac682294c85a.png)
+
+If we wanted to analyze the results of more counties than only Arapahoe, Denver, and Jefferson, we could replace the election_results.csv file with a file that contains the data from all of the counties that we want to analyze, as long as the data is structured in the same way in the new file (Ballot ID in column A, County in column B, and Candidate in column C, as in the image below).
+
+![image](https://user-images.githubusercontent.com/100658772/164799779-1e6e7777-e32a-4ad4-904f-b9f4db6bc8ec.png)
+
+If we use this script to analyze a different file, we should also create a new .txt file to write the information to, and update the file name in the file_to_save variable to reflect the new .txt file.
+
+This script could also be used to analyze election results from other states, as long as the data is structured in three columns with Ballot ID in column A, County in column B, and Candidate in column C.
+
