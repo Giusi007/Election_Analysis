@@ -1,8 +1,8 @@
 # Election_Analysis
 Analysis of local election to validate results.
 
-## Project Overview
-This project involved validating election results from an election in Colorado. The Colorado Board of Elections asked for the following information regarding the election:
+## Candidate Analysis Overview
+This project involved validating election results from an election in Colorado. The Colorado Board of Elections asked for the following candidate information regarding the election:
 
 1. The total number of votes cast.
 2. A complete list of candidates who received votes.
@@ -27,3 +27,7 @@ The analysis of the election shows that:
       - Raymon Anthony Doane received 3.1% of the votes with a total of 11,606 votes.
 - The winner of the election was:
       - Diana DeGette won with 272,892 votes, which accounted for 73.8% of the vote.
+
+## County Analysis Overview
+
+## County Analysis Summary
