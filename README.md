@@ -50,9 +50,8 @@ The value of this script is apparent in the results of this analysis, and it can
 
 If we wanted to analyze the results of more counties than only Arapahoe, Denver, and Jefferson, we could replace the election_results.csv file with a file that contains the data from all of the counties that we want to analyze, as long as the data is structured in the same way in the new file (Ballot ID in column A, County in column B, and Candidate in column C, as in the image below).
 
-![image](https://user-images.githubusercontent.com/100658772/164799779-1e6e7777-e32a-4ad4-904f-b9f4db6bc8ec.png)
+![image](https://user-images.githubusercontent.com/100658772/164800256-2735d52f-dc4f-4d13-a797-f96a80bce9b7.png)
 
 If we use this script to analyze a different file, we should also create a new .txt file to write the information to, and update the file name in the file_to_save variable to reflect the new .txt file.
 
 This script could also be used to analyze election results from other states, as long as the data is structured in three columns with Ballot ID in column A, County in column B, and Candidate in column C.
-
