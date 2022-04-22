@@ -1,4 +1,4 @@
-# Election_Analysis
+# Colorado Election Analysis
 Analysis of local election to validate results.
 
 ## Candidate Analysis Overview
